@@ -1,5 +1,6 @@
 {
     "patcher": {
+"description" : "br.pitchshift.abs.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/ -- Credits: built around gizmo~ (Cycling '74).",
         "fileversion": 1,
         "appversion": {
             "major": 9,
@@ -14,6 +15,8 @@
         "openinpresentation": 1,
         "devicewidth": 112.0,
         "boxes": [
+{"box": {"id": "obj-signature", "maxclass": "comment", "numinlets": 1, "numoutlets": 0, "patching_rect": [1018.0, 38.0, 520.0, 60.0], "text": "br.pitchshift.abs.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/\nCredits: built around gizmo~ (Cycling '74).", "linecount": 3}},
+
             {
                 "box": {
                     "activeneedlecolor": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -984,7 +987,7 @@
                     "angle": 270.0,
                     "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "bordercolor": [ 0.0, 0.0, 0.0, 1.0 ],
-                    "id": "obj-11",
+                    "id": "obj-11", "hint" : "br.pitchshift.abs.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/ -- Credits: built around gizmo~ (Cycling '74).", "annotation" : "br.pitchshift.abs.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/ -- Credits: built around gizmo~ (Cycling '74).",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
