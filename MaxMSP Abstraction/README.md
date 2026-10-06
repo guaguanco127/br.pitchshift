@@ -81,3 +81,7 @@ Every control has its own inlet. Sending a value to an inlet moves its on-screen
 **Upgrading from 1.0:** inlets 1-5 are unchanged, but On/Off now defaults to 0 (bypass). Inlets 6 (Lowpass) and 7 (Highpass) are new.
 
 Double click on the object and you can see inside of the object. This way you can study how it was built. 
+
+## <a name="Credits"></a>Credits
+
+Built around gizmo~ (Cycling '74).

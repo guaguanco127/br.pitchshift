@@ -45,3 +45,11 @@ Only works as an abstraction or a device. External objects and RNBO not availabl
 **Lowpass:** Filters the high frequencies out of the sound before it is pitch-shifted, between 500 Hz and 20,000 Hz. The default is 20,000 Hz (fully open). Lower it to keep noisy highs from turning into artifacts, especially when shifting up.
 
 **Highpass:** Filters the low frequencies out of the sound before it is pitch-shifted, between 20 Hz and 1,000 Hz. The default is 20 Hz (fully open). Around 40 Hz removes rumble that would otherwise be shifted up into audible range.
+
+## <a name="Credits"></a>Credits
+
+Built around gizmo~ (Cycling '74).
+
+## <a name="Credits"></a>Credits
+
+Built around gizmo~ (Cycling '74).

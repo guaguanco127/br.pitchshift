@@ -63,3 +63,7 @@ Copy and paste br.pitchshift.1.1.amxd into that folder
 5. Open Ableton Live. On the left-hand side, look for Max for Live > Max Audio Effect and then the name of this device.
 
 6. Either double click on the device, or drag/drop it onto the track where you wish to use it.
+
+## <a name="Credits"></a>Credits
+
+Built around gizmo~ (Cycling '74).
