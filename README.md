@@ -1,6 +1,6 @@
 # Max/MSP Patches, Abstractions, Externals, RNBO, VSTs, and Ableton Max for Live 
 
-## br.pitchshift.1.1
+## br.pitchshift.1.2
 
 
 By Brian Riordan  
@@ -8,17 +8,26 @@ By Brian Riordan
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
 
-Repository for br.pitchshift.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.pitchshift](https://github.com/guaguanco127/br.pitchshift)  
+Repository for br.pitchshift.1.2, with all related files, can be found here: [https://github.com/guaguanco127/br.pitchshift](https://github.com/guaguanco127/br.pitchshift)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)  
 
-Version 1.1 was updated with Max 9. Version 1.0 was created with Max/MSP 8.5.6. 
+Versions 1.1 and 1.2 were updated with Max 9. Version 1.0 was created with Max/MSP 8.5.6. 
 
 ## Links
 
+[What's New in 1.2](#whats-new-in-12)  
 [What's New in 1.1](#whats-new-in-11)  
 [About](#About)   
 [Ableton Max for Live Device](https://github.com/guaguanco127/br.pitchshift/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite   
 [Max/MSP Abstraction](https://github.com/guaguanco127/br.pitchshift/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP   
+
+## What's New in 1.2
+
+- **State outlet** (abstraction only): a new last outlet sends every setting as a named message the moment it changes (`on`, `pitch`, `drywet`, `lowpass`, `highpass`). See [State outlet](https://github.com/guaguanco127/br.pitchshift/tree/main/MaxMSP%20Abstraction#State).
+- Every inlet and the L/R outlets are unchanged, so 1.2 swaps in for 1.1 without rewiring.
+- **New example patch:** _br.pitchshift.example.1.2 with a demo source, messages into every inlet and a State outlet tab.
+- The controls have readable names (On/Off, Pitchshift, Dry/Wet, Lowpass, Highpass), so presets and pattr show them clearly.
+- The pfft file and the Max for Live device are unchanged (1.1).
 
 ## What's New in 1.1
 
@@ -45,10 +54,6 @@ Only works as an abstraction or a device. External objects and RNBO not availabl
 **Lowpass:** Filters the high frequencies out of the sound before it is pitch-shifted, between 500 Hz and 20,000 Hz. The default is 20,000 Hz (fully open). Lower it to keep noisy highs from turning into artifacts, especially when shifting up.
 
 **Highpass:** Filters the low frequencies out of the sound before it is pitch-shifted, between 20 Hz and 1,000 Hz. The default is 20 Hz (fully open). Around 40 Hz removes rumble that would otherwise be shifted up into audible range.
-
-## <a name="Credits"></a>Credits
-
-Built around gizmo~ (Cycling '74).
 
 ## <a name="Credits"></a>Credits
 
