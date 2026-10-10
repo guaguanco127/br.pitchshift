@@ -41,7 +41,7 @@ Versions 1.1 and 1.2 were updated with Max 9. Version 1.0 was created with Max/M
 
 This is a spectral Max/MSP abstraction, and Ableton Max for Live device that allows the user to transpose the pitch of a stereo signal up to two octaves and down to two octaves. Good for harmonization and microtonal pitch-shifting. Currently works in any sample rate or bit depth.
 
-This effect introduces a latency of 2048 samples. For a latency-free version of a pitch-shifter (that introduces some artifacts) use [br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0) instead.  
+This effect introduces a latency of 2048 samples. For a latency-free version of a pitch-shifter (that introduces some artifacts) use [br.whammy](https://github.com/guaguanco127/br.whammy) instead.  
 
 Only works as an abstraction or a device. External objects and RNBO not available yet. An important file is included in each folder called "br.pitchshift.pfft.maxpat". Keep it in the same folder as the abstraction or device -- they will not work without it.
 
